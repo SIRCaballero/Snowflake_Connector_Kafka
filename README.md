@@ -1,4 +1,4 @@
-# Snowflake_Connector_Kafka
+# Snowflake Connector Kafka
 
 Step 1 --- Getting Ready
 ======================
@@ -155,15 +155,15 @@ $ vi kafka/config/connect-snowflake-kafka-connector.properties
 >
 > snowflake.schema.name=public
 >
-> # key.converter=org.apache.kafka.connect.storage.StringConverter
+> #key.converter=org.apache.kafka.connect.storage.StringConverter
 >
 > #value.converter=com.snowflake.kafka.connector.records.SnowflakeAvroConverter
 >
-> # value.converter.schema.registry.url=http://localhost:8081
+> #value.converter.schema.registry.url=http://localhost:8081
 >
-> # value.converter.basic.auth.credentials.source=USER_INFO
+> #value.converter.basic.auth.credentials.source=USER_INFO
 >
-> # value.converter.basic.auth.user.info=jane.smith:MyStrongPassword
+> #value.converter.basic.auth.user.info=jane.smith:MyStrongPassword
 
 4\. Save the file. We are now done with all the setup!
 
