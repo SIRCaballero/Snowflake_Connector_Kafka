@@ -1,0 +1,1 @@
+# Snowflake_Connector_Kafka
