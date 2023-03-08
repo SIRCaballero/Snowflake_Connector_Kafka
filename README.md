@@ -1,6 +1,6 @@
 # Snowflake Connector Kafka
 
-This is a step by step, if you need more detail please check :
+This is a step by step, if you need more detail please check the official documentation :
 
 https://docs.snowflake.com/en/user-guide/kafka-connector-install
 
